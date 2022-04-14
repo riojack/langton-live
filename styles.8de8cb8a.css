@@ -1,0 +1,91 @@
+body {
+  margin: 0.5em;
+  background-color: #3A8986;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#langtons-world {
+  background-color: #f6f6bb;
+  border-radius: 1em;
+}
+
+.controls-overlay {
+  background-color: #D86721;
+  border-radius: 1em;
+  overflow: hidden;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+#langtons-brain {
+  font-family: 'Consolas', monospace, 'Courier New', Courier;
+  display: block;
+  max-height: 630px;
+  min-height: 330px;
+  border-radius: 1em;
+}
+
+.on-off-buttons {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 0.4em;
+  border-radius: 0.5em;
+}
+
+#turn-on-langtons-brain {
+  font-size: 200%;
+  flex-grow: 1;
+  background-color: rgba(4, 191, 85, .75);
+  color: white;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+#turn-on-langtons-brain:hover {
+  background-color: rgba(4, 191, 85, 1);
+}
+
+#turn-off-langtons-brain {
+  font-size: 200%;
+  flex-grow: 1;
+  background-color: rgba(166, 3, 3, 0.75);
+  color: white;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+#turn-off-langtons-brain:hover {
+  background-color: rgba(166, 3, 3, 1);
+}
+
+.speed-dial {
+  background-color: lightgray;
+  border-radius: 2em;
+  margin: 0.3rem 0;
+  padding: 1.0em 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#current-speed {
+  width: 35px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.speed-slider-container {
+  flex-grow: 3;
+}
+
+#speed-slider {
+  width: 94%;
+  vertical-align: middle;
+}
