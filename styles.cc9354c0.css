@@ -16,7 +16,6 @@ body {
   border-radius: 1em;
   overflow: hidden;
   padding: 10px;
-  padding-bottom: 35px;
 }
 
 #langtons-brain {
@@ -90,4 +89,35 @@ a.btn {
 #speed-slider {
   width: 94%;
   vertical-align: middle;
+}
+
+#speed-slider::-webkit-slider-thumb {
+  cursor: pointer;
+}
+
+.app-title {
+  padding: 20px 0 2px 0;
+  font-family: 'Quicksand', sans-serif;
+  color: seashell;
+  text-align: left;
+}
+
+.app-title h1,
+.app-title h3,
+.app-title h4 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.app-title h1 {
+  padding: 0 0 0 2em;
+}
+
+.app-title h3 {
+  padding: 0 0 0 0.35em;
+}
+
+.app-title h4 {
+  padding: 0 0 0 0.35em;
 }
